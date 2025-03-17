@@ -21,6 +21,6 @@ jobs:
         uses: azure/container-apps-deploy-action@v1
         with:
           appSourcePath: ${{ github.workspace }}/src
-          acrName: footestacr01
-          containerAppName: foo-container-app01
-          resourceGroup: foo-test-rsg02
+          acrName: footestacr02
+          containerAppName: foo-container-app02
+          resourceGroup: foo-test-rsg03
